@@ -37,6 +37,9 @@ body{
 .container{
     width: 1000px;
     margin: 0px auto;
+    -moz-margin: 0px auto;
+    -webkit-margin: 0px auto;
+    -ms-margin: 0px auto;
     background: #2d3436;
     /* background: #dfe6e9; */
     height: 100%;
@@ -210,7 +213,7 @@ th{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 45%;
     border: 5px solid #ffffff;
     border-radius: 50%;
