@@ -294,18 +294,15 @@ h3{
     /* height: 100%; */
     border: 5px solid #fab1a0;
 }
-
-
-/* 
-div img { 
-    padding-left: 40%;
-    padding-block: 30px;
-    width: 300px;
-    height: 300px;
-    opacity: 01;
-    transition: opacity 200ms;
-    -webkit-transition: opacity 200ms linear; 
+#timer{
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fdcb6e;
+    font-weight: bold;
+    padding: 10px;
+    background: rgb(225,112,85, 0.3);
+    border-radius: 50%;
 }
-div img:hover{
-    opacity: 0.5;
-} */

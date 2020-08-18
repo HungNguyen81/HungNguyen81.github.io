@@ -1,3 +1,15 @@
+window.onload = function(){
+    setInterval(countTime, 1000);
+    function countTime(){
+        var date = new Date();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        var sec = date.getSeconds();
+        var clock = document.getElementById("timer");
+        clock.innerHTML = hour + ":" + min + ":" + sec;
+    }
+}
+
 function clicked(){
     alert("Cái form này chỉ để cho đẹp thôi hehe ^^");
 }
