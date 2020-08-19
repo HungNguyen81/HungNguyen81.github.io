@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;  
 }
+html{
+    overflow: hidden;   
+}
 body{
     background: #636e72;
     /* background: #2d3436; */
