@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/ico" href="adroid studio.ico"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script type="text/javascript" src="action.js"></script>
     <title>
         My little blog
@@ -43,7 +44,7 @@
             <p id="introduce">
                 Here is my Timetable, in 20201 semeter:
             </p>
-            <table>
+            <table data-aos="zoom-in">
                 <tr>
                     <th class="day-of-week">Thứ</th>
                     <th>Thời gian</th>
@@ -146,7 +147,7 @@
             </table>
             <br/><hr><br/>
             <h2><i>My videos on Youtube</i></h2>
-            <div class="videos">
+            <div class="videos" data-aos="zoom-in">
                 <div class="vid">
                     <iframe class="frame" src="https://www.youtube.com/embed/H3sJyMJZDgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -176,7 +177,7 @@
                 </div>
             </div>
         </div>
-        <div class="form">
+        <div class="form" data-aos="zoom-in">
             <h2><i>Contact</i></h2>
             <form>
                 <input type="text" placeholder="Your name" required>
@@ -187,31 +188,31 @@
             <hr>
             <div class="github">
                 <h2><i>My Projects</i></h2>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="https://github.com/HungNguyen81/BKPaint.git" target="_blank"><h3>BK-Paint v2020</h3></a>
                 </div><hr>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="https://github.com/HungNguyen81/RanSanMoi-Console-Game.git" target="_blank"><h3>RanSanMoi Console Game</h3></a>
                 </div><hr>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="" target="_blank"><h3>RanSanMoi Console Game</h3></a>
                 </div><hr>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="https://github.com/HungNguyen81/Tool_Tinh_CPA_IT2_HUST" target="_blank"><h3>Tool tính CPA, GPA sv-IT2 HUST</h3></a>
                 </div><hr>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="https://github.com/HungNguyen81/Pho_Diem_CK_OOP_20192_115639" target="_blank"><h3>Biểu đồ phổ điểm OOP 20192</h3></a>
                 </div><hr>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="https://github.com/HungNguyen81/GreenMatrix" target="_blank"><h3>Green Matrix</h3></a>
                 </div><hr>
-                <div class="reponsitory">
+                <div class="reponsitory" data-aos="zoom-in">
                     <img class="thumbnail" src="GitHub-Mark.png" alt="GitHub">
                     <a href="https://github.com/HungNguyen81/FunText-ConsoleApp" target="_blank"><h3>Fun with Text</h3></a>
                 </div><hr>
@@ -224,13 +225,17 @@
     <a href="https://www.facebook.com/ngochung.nguyen.hnn" target="_blank">
         <img id="main-avt" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/97227405_1165170117166195_6913434261655650304_o.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_ohc=CltaESyQmooAX-8rJ8p&_nc_ht=scontent.fhan5-6.fna&oh=d72dcba6a5eda75b100e65badca32d91&oe=5F62884D" alt="my avatar">
     </a>
-    <img id="face" src="face.png" alt="face">
+    <img data-aos="zoom-in" id="face" src="face.png" alt="face">
     <span><p id="timer">00:00:00</p></span>
     <div class="contact">
         <p class="contact">Phone number: 0334.004.653
         <br/>Email: nguyenngochung.ncth@gmail.com
         <hr>&copy; 2020 My Blog. All rights reserved.</p>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
