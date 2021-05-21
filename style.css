@@ -58,6 +58,7 @@ body{
 }
 #wallpaper{
     width: 126%;
+    height: 400px;
     margin-left: -14%;
     margin-right: -13%;
     margin-top: -10%;
@@ -216,7 +217,7 @@ th{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 250px;
+    top: 280px;
     left: 45%;
     border: 5px solid #ffffff;
     border-radius: 50%;
@@ -306,9 +307,9 @@ h3{
     left: 20px;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fdcb6e;
+    color: #00e732;
     font-weight: bold;
     padding: 10px;
-    background: rgb(225,112,85, 0.3);
-    border-radius: 50%;
+    background: rgba(136, 38, 13, 0.3);
+    border-radius: 40%;
 }
