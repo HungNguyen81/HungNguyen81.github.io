@@ -14,7 +14,7 @@ window.onload = function(){
 }
 
 function clicked(){
-    // alert("Cái form này chỉ để cho đẹp thôi hehe ^^");
+    alert("Cái form này chỉ để cho đẹp thôi hehe ^^");
     
 }
 
